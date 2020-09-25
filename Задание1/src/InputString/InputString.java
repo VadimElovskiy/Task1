@@ -37,6 +37,7 @@ public class InputString {
                 max = lastMax;
                 str = s;
             }
+            //TODO перменная "живет" только внутри скобок, чтобы не обнулять переменную, ее можно объявить внутри этого цикла
             count = 0;
         }
         return str;
